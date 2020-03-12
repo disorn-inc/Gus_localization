@@ -1,0 +1,16 @@
+<launch>
+
+
+   <node pkg="imu_filter_madgwick" type="imu_filter_node" name="imu_filter_madgwick" output="screen" respawn="false" >
+    <param name="fixed_frame" value="odom" />
+    <param name="use_mag" value="true" />
+    <param name="use_magnetic_field_msg" value="true" />
+    <param name="stateless" value="false" />
+    <param name="mag_bias_x" value="0.001" />
+    <param name="mag_bias_y" value="0.001" />
+    <param name="mag_bias_z" value="0.001" />
+    <param name="zeta" value="0.1" />
+    <param name="world_frame" value="enu" />
+ </node>
+
+ </launch> 

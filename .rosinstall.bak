@@ -1,0 +1,22 @@
+- git:
+    local-name: cirkit_waypoint_manager_msgs
+    uri: https://github.com/CIR-KIT/cirkit_waypoint_manager_msgs.git
+    version: indigo-devel
+- git:
+    local-name: laserscan_to_pointcloud
+    uri: https://github.com/carlosmccosta/laserscan_to_pointcloud.git
+- git:
+    local-name: mesh_to_pointcloud
+    uri: https://github.com/carlosmccosta/mesh_to_pointcloud.git
+- git:
+    local-name: octomap_mapping
+    uri: https://github.com/carlosmccosta/octomap_mapping.git
+- git:
+    local-name: pcl
+    uri: https://github.com/carlosmccosta/pcl.git
+- git:
+    local-name: pcl_msgs
+    uri: https://github.com/ros-perception/pcl_msgs.git
+- git:
+    local-name: pose_to_tf_publisher
+    uri: https://github.com/carlosmccosta/pose_to_tf_publisher.git
